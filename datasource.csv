@@ -1,0 +1,6 @@
+name,ip_address,username,password
+pc1,172.10.10.1,work1,hogePass123
+pc2,172.10.10.2,work2,hogePass123
+pc3,172.10.10.3,work3,hogePass123
+pc4,172.10.10.4,work4,hogePass123
+pc5,172.10.10.5,work5,hogePass123

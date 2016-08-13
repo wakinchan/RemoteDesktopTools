@@ -1,0 +1,15 @@
+#!/bin/bash
+
+user_name="${1}"
+label="${2}"
+host_name="${3}"
+bookmark_order_id="${4}"
+password="${5}"
+
+/usr/bin/security add-internet-password \
+    -a "${user_name}" \
+    -l "${label}" \
+    -s "${host_name}" \
+    -w "${password}" \
+    -p "${bookmark_order_id}" \
+    -T "/Applications/Microsoft Remote Desktop.app/"
